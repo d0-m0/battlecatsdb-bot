@@ -42,4 +42,4 @@ async def on_message(message):
          embed = discord.Embed(title=f'【検索ワード】{search_word}',description=str)
          await message.channel.send(embed=embed)
  
-client.run("MTA5NjAxNzU1NjQxNTk4Nzc2Mg.GI1WVQ.HUvgZv87iMVr3Gj5aDagDBgl91OYfIse46NYaA")
+client.run("TOKEN")
