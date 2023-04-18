@@ -42,7 +42,7 @@ async def on_message(message):
       site_url = site['href'].replace('/url?q=', '')
       idx = site_url.find(tar)
       site_url2 = site_url[:idx + 4]
-      str += site_title + "\n" + site_url2 + "\n"
+      str += site_title + "\n" + site_url2 + "\n" + "\n"
     embed = discord.Embed(title=f'【検索ワード】{search_word}',
                           description=str,
                           color=discord.Colour.yellow())
